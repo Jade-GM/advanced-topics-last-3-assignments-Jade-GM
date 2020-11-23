@@ -1,6 +1,6 @@
 <section id="test">
 
-# Fur Trade, Germ Trade: Exploring the Role of Hansa Cities in the spread of the Black Death 
+# Fur Trade, Germ Trade: Exploring the Role of the Hanseatic League in the Spread of the Black Death 
 
 Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
 
