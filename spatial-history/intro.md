@@ -1,6 +1,6 @@
 <section id="test">
 
-# Fur Trade, Germ Trade: Exploring the Role of the Hanseatic League in the Spread of the Black Death 
+# Pests or Pertussis?: Exploring the Spread of Plague in the Hanseatic League and What It Tells Us About the Black Death
 
 Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
 
