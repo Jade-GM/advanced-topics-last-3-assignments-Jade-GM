@@ -111,7 +111,8 @@ extra css instructions here, or adding classes when you create the
 legneds in javascript. Advisable! */
 
 div#map_legend h1 {
-    
+    font-family: 'EB Garamond';
+    font-weight: bold;
 }
 
 div#map_legend h3 {
