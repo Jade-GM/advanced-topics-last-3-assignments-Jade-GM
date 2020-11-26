@@ -132,7 +132,7 @@ let reached1349 = [
         title: 'Bergen',
         description: `<p>One of Norway's most important trade hubs and a <em>kontore</em> of the Hanseatic League.</p>`
     },
-    {position: [],
+    {position: [10.74462890625, 59.93300042374631],
         title: 'Oslo',
         description: `<p>Plague was widespread in Norway by the summer of 1349, and King Magnus of Sweden and Norway issued a royal warning about it.</p>`
     }
