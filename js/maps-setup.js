@@ -127,6 +127,10 @@ let reached1348MarkerInfo = [
     {position: [-0.11810302734375, 51.515579783755925],
         title: 'London',
         description: `<p>Plague had reached London by autumn 1348, most likely coming from France via Bristol.</p>`
+    },
+    {position: [3.2300, 51.2206],
+        title: 'Bruges',
+        description: `<p>Plague reached Bruges in 1348.</p>`
     }
 ];
 
@@ -135,6 +139,10 @@ let reached1349MarkerInfo = [
     {position: [5.306396484375, 60.403001945865476],
         title: 'Bergen',
         description: `<p>Plague reached Bergen by 1349, and it had spring outbreaks despite frigid weather.</p>`
+    },
+    {position: [12.568359375, 55.68687525596441],
+        title: 'Copenhagen',
+        description: `<p>Plague most likely reached Copenhagen by 1349.</p>`
     },
     {position: [10.74462890625, 59.93300042374631],
         title: 'Oslo',
@@ -177,6 +185,13 @@ let reached1352MarkerInfo = [
     }
 ];
 
+let neverMarkerInfo = [
+    {position: [19.9072, 50.0924],
+        title: 'Krakow',
+        description: `<p>There are no known plague outbreaks in the 14th century in Krakow.</p>`
+    }
+];
+
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1348'});
 let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
@@ -186,6 +201,8 @@ let fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
 let fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1351'});
 let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1352'});
+let neverMarkers = processMarkerLayer(neverMarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1352'});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
@@ -340,7 +357,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [towns, fortyEightMarkers, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers];
+let allLayers = [fortyEightMarkers, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers, towns];
 
 
 ///////////////////////////////////////
