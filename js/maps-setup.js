@@ -146,19 +146,19 @@ let reached1350 = [
     }
 ]
 
-let reached1351 = {
+let reached1351 = [
     {position: [28.32275390625, 57.79794388498275],
         title: 'Pskov',
         description: `<p>Plague reached Pskov in 1351.</p>`
     }
-}
+]
 
-let reached1352 = {
+let reached1352 = [
     {position: [31.289062500000004, 58.48220919993359],
         title: 'Veliky Novgorod'
         description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
     }
-}
+]
 
 let gryfMarkers = processMarkerLayer(gryfMarkerInfo,
                                      {description: 'Gryffindor: People and Places', defaultIcon: gryfIcon}),
