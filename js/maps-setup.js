@@ -141,11 +141,16 @@ let reached1349 = [
 // Visby position: 18.30322265625, 57.645400667406605
 
 let reached1350 = [
+    {position: [18.30322265625, 57.645400667406605],
+        title: 'Visby',
+        description: `<p>Plague reached Visby in 1350.</p>`
+    },
     {position: [18.10546875, 59.33318942659219],
         title: 'Stockholm',
         description: `<p>Plague reached Stockholm in 1350.</p>`
     }
 ]
+
 
 let reached1351 = [
     {position: [28.32275390625, 57.79794388498275],
