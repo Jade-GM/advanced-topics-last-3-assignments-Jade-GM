@@ -504,7 +504,7 @@ let houses = processManualLayers([gryffindor, slytherin, headmasterTower],
 
 
 // Polyline Objects and Layer Group ("paths")
-let vanishingPath = L.polyline([[51.37178037591737, -0.2197265625],
+/* let vanishingPath = L.polyline([[51.37178037591737, -0.2197265625],
                                 [55.36857598381045, -1.7512893676757812],
                                 [55.48997247517858,-1.5944015979766843 ]], {
                                     color: slythCol,
@@ -526,7 +526,7 @@ let horcruxPath = L.polyline([[55.49058639152367,-1.5951092937469482],
                                   weight: 4,
                                   title: 'Return from Horcrux quest',
                                   windowContent: `<h3>Return Disapparation from Failed Horcrux quest</h3><p>Exhaisted and grieviously injured, Dumbledore returns to find the trap he had so long expected has been sprung.</p>`})
-let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {description: 'Paths'})
+let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {description: 'Paths'}) */
 
 
 

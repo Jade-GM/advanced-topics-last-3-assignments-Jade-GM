@@ -4,6 +4,7 @@ While the Hanseatic League was not officially founded as a trade federation unti
 
 The map marks the extent of these main trade connections in the form of a polygon bounded by the furthest Hanseatic League member cities and kontore-having cities (Natkiel, p. 33)](https://archive.org/details/atlasofmaritimeh0000natk/page/33/mode/2up): London in the west, Veliky Novgorod in the east, Krakow in the south, and Bergen and Turku in the north (as marking either of those cities alone would exclude the other from the shaded area). As trade did not take place exclusively in a set order from one end to the other, this shaded area stands in for a variety of trade routes both maritime and land-based.
 
+# Plague Transmission and Fur/Textile Trades
 
 
 
