@@ -160,8 +160,8 @@ let reached1352 = [
     }
 ]
 
-let gryfMarkers = processMarkerLayer(gryfMarkerInfo,
-                                     {description: 'Gryffindor: People and Places', defaultIcon: gryfIcon}),
+let fortyEightfMarkers = processMarkerLayer(reached1348,
+                                     {description: 'Places with Plague in 1348'}),
     slythMarkers = processMarkerLayer(slythMarkerInfo,
                                       {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon});
 
