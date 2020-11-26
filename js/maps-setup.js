@@ -134,7 +134,7 @@ let reached1348MarkerInfo = [
 let reached1349MarkerInfo = [
     {position: [5.306396484375, 60.403001945865476],
         title: 'Bergen',
-        description: `<p>One of Norway's most important trade hubs and a <em>kontore</em> of the Hanseatic League.</p>`
+        description: `<p>Plague reached Bergen by 1349, and it had spring outbreaks despite frigid weather.</p>`
     },
     {position: [10.74462890625, 59.93300042374631],
         title: 'Oslo',
@@ -154,7 +154,7 @@ let reached1350MarkerInfo = [
     },
     {position: [10.6787109375, 53.87844040332883],
         title: 'Lübeck',
-        description: `<p>Plague reached Lübeck in 1350.</p>`
+        description: `<p>Plague reached Lübeck in 1350. Lübeck's outbreaks continued through fall and winter weather.</p>`
     }
 ];
 
@@ -231,6 +231,7 @@ let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
 
 const townsData={
     "type": "FeatureCollection",
+    "description": 'Rough area of Hanseatic League trade connections in the mid-14th century.',
     "features": [
       {
         "type": "Feature",
@@ -242,7 +243,7 @@ const townsData={
           "fill-opacity": 0.5 */
           myColor: '#1223a7',
           title: 'Hanseatic Trade Area',
-          description: 'Rough area of Hanseatic League trade connections in the mid-14th century.'
+          description: 'There was extensive trade between the marked cities.'
         },
         "geometry": {
           "type": "Polygon",
