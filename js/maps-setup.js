@@ -65,7 +65,10 @@ let gryfCol = 'yellow',
     towerCol = 'blue';
 
 let col1348 = 'pink',
-    col1349 = 'magenta';
+    col1349 = 'magenta',
+    col1350 = 'purple',
+    col1351 = 'indigo',
+    col1352 = 'black';
 
 ///////////////////////////////////////////////////////////////////////
 // CHANGE THESE VARIABLE NAMES AND THEIR VALUES TO SUIT YOUR PROJECT //
