@@ -247,16 +247,16 @@ const townsData={
         "geometry": {
           "type": "Polygon",
           "coordinates": [[[-0.1318359375,51.508742458803326],
-          [3.2409667968749996, 51.19999983412068],
-              [19.92919921875, 50.05008477838256],
-              [31.3330078125, 58.56252272853734],
-              [22.236328125, 60.468050120874615],
-              [5.3173828125, 60.413852350464914],
-              [-0.1318359375, 51.508742458803326]]]
+          [3.2409667968749996,51.19999983412068],
+              [19.92919921875,50.05008477838256],
+              [31.3330078125,58.56252272853734],
+              [22.236328125,60.468050120874615],
+              [5.3173828125,60.413852350464914],
+              [-0.1318359375,51.508742458803326]]]
         }
       }
     ]
-  };
+  }
 
 let towns = processJSONLayer(townsData);
 //let routesArea = processJSONLayer(hanseTradeArea);
@@ -388,8 +388,8 @@ function createMap (element) {
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
-        id: 'mapbox/dark-v10',
-        // id: 'titaniumbones/ckhnvk5pl18o71apeq8q1duhc',
+        //id: 'mapbox/dark-v10',
+        id: 'titaniumbones/ckhnvk5pl18o71apeq8q1duhc',
         tileSize: 512,
         zoomOffset: -1,
 	accessToken: 'pk.eyJ1IjoidGl0YW5pdW1ib25lcyIsImEiOiJjazF0bTdlNXQwM3gxM2hwbXY0bWtiamM3In0.FFPm7UIuj_b15xnd7wOQig'
