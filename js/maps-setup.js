@@ -127,6 +127,7 @@ let reached1348 = [
     }
 ]
 
+
 let reached1349 = [
     {position: [5.306396484375, 60.403001945865476],
         title: 'Bergen',
@@ -138,7 +139,6 @@ let reached1349 = [
     }
 ]
 
-// Visby position: 18.30322265625, 57.645400667406605
 
 let reached1350 = [
     {position: [18.30322265625, 57.645400667406605],
@@ -148,6 +148,10 @@ let reached1350 = [
     {position: [18.10546875, 59.33318942659219],
         title: 'Stockholm',
         description: `<p>Plague reached Stockholm in 1350.</p>`
+    },
+    {position: [10.6787109375, 53.87844040332883],
+        title: 'Lübeck',
+        description: `<p>Plague reached Lübeck in 1350.</p>`
     }
 ]
 
@@ -175,7 +179,11 @@ let fortyEightMarkers = processMarkerLayer(reached1348,
     fortyNineMarkers = processMarkerLayer(reached1349,
                                      {description: 'Cities with First Plague Outbreak in 1349'}),
     fiftyMarkers = processMarkerLayer(reached1350,
-                                     {description: 'Cities with First Plague Outbreak in 1350'})
+                                     {description: 'Cities with First Plague Outbreak in 1350'}),
+    fiftyOneMarkers = processMarkerLayer(reached1351,
+                                     {description: 'Cities with First Plague Outbreak in 1351'}),
+    fiftyTwoMarkers = processMarkerLayer(reached1352,
+                                     {description: 'Cities with First Plague Outbreak in 1352'})
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
