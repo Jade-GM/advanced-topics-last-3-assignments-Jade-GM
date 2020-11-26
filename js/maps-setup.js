@@ -25,8 +25,8 @@
 
 // map initialization variables
 let projectMap, // this will hold the map once it's initialized
-    myCenter = [ 52.90024141178471, -1.2631566904279536 ], // [ 55.4907, -1.594], // *latitude*, then longitude
-    myZoom = 6; // set your preferred zoom here. higher number is closer in.
+    myCenter = [58.516651799363785, 10.3271484375], // [ 55.4907, -1.594], // *latitude*, then longitude
+    myZoom = 4; // set your preferred zoom here. higher number is closer in.
                 // I set the zoom wide to give access to context before zooming in
 
 
@@ -124,11 +124,11 @@ let col1348 = 'pink',
      // keeping these here as comments for reference
 
 let reached1348MarkerInfo = [
-    {position: [-0.11810302734375, 51.515579783755925],
+    {position: [51.515579783755925, -0.11810302734375],
         title: 'London',
         description: `<p>Plague had reached London by autumn 1348, most likely coming from France via Bristol.</p>`
     },
-    {position: [3.2300, 51.2206],
+    {position: [51.2206, 3.2300],
         title: 'Bruges',
         description: `<p>Plague reached Bruges in 1348.</p>`
     }
@@ -136,15 +136,15 @@ let reached1348MarkerInfo = [
 
 
 let reached1349MarkerInfo = [
-    {position: [5.306396484375, 60.403001945865476],
+    {position: [60.403001945865476, 5.306396484375],
         title: 'Bergen',
         description: `<p>Plague reached Bergen by 1349, and it had spring outbreaks despite frigid weather.</p>`
     },
-    {position: [12.568359375, 55.68687525596441],
+    {position: [55.68687525596441, 12.568359375],
         title: 'Copenhagen',
         description: `<p>Plague most likely reached Copenhagen by 1349.</p>`
     },
-    {position: [10.74462890625, 59.93300042374631],
+    {position: [59.93300042374631, 10.74462890625],
         title: 'Oslo',
         description: `<p>Plague was widespread in Norway by the summer of 1349, and King Magnus of Sweden and Norway issued a royal warning about it.</p>`
     }
@@ -152,15 +152,15 @@ let reached1349MarkerInfo = [
 
 
 let reached1350MarkerInfo = [
-    {position: [18.30322265625, 57.645400667406605],
+    {position: [57.645400667406605, 18.30322265625],
         title: 'Visby',
         description: `<p>Plague reached Visby in 1350.</p>`
     },
-    {position: [18.10546875, 59.33318942659219],
+    {position: [59.33318942659219, 18.10546875],
         title: 'Stockholm',
         description: `<p>Plague reached Stockholm in 1350.</p>`
     },
-    {position: [10.6787109375, 53.87844040332883],
+    {position: [53.87844040332883, 10.6787109375],
         title: 'Lübeck',
         description: `<p>Plague reached Lübeck in 1350. Lübeck's outbreaks continued through fall and winter weather.</p>`
     }
@@ -168,42 +168,42 @@ let reached1350MarkerInfo = [
 
 
 let reached1351MarkerInfo = [
-    {position: [28.32275390625, 57.79794388498275],
+    {position: [57.79794388498275, 28.32275390625],
         title: 'Pskov',
         description: `<p>Plague reached Pskov in 1351.</p>`
     },
-    {position: [28.32275390625, 57.79794388498275],
+    {position: [57.79794388498275, 28.32275390625],
         title: 'Turku',
         description: `<p>Plague reached Turku in 1351.</p>`
     }
 ];
 
 let reached1352MarkerInfo = [
-    {position: [31.289062500000004, 58.48220919993359],
+    {position: [58.48220919993359, 31.289062500000004],
         title: 'Veliky Novgorod',
         description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
     }
 ];
 
 let neverMarkerInfo = [
-    {position: [19.9072, 50.0924],
+    {position: [50.0924,19.9072],
         title: 'Krakow',
         description: `<p>There are no known plague outbreaks in the 14th century in Krakow.</p>`
     }
 ];
 
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1348'});
+                                     {description: 'Cities with First Plague Outbreak in 1348', defaultIcon: mysteryIcon});
 let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1349'});
+                                     {description: 'Cities with First Plague Outbreak in 1349', defaultIcon: mysteryIcon});
 let fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1350'});
+                                     {description: 'Cities with First Plague Outbreak in 1350', defaultIcon: mysteryIcon});
 let fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1351'});
+                                     {description: 'Cities with First Plague Outbreak in 1351', defaultIcon: mysteryIcon});
 let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1352'});
+                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: mysteryIcon});
 let neverMarkers = processMarkerLayer(neverMarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1352'});
+                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: mysteryIcon});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
