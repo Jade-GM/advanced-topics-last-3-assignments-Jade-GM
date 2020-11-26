@@ -25,7 +25,7 @@
 
 // map initialization variables
 let projectMap, // this will hold the map once it's initialized
-    myCenter = [58.516651799363785, 10.3271484375], // [ 55.4907, -1.594], // *latitude*, then longitude
+    myCenter = [57.516651799363785, 15.3271484375], // [ 55.4907, -1.594], // *latitude*, then longitude
     myZoom = 4; // set your preferred zoom here. higher number is closer in.
                 // I set the zoom wide to give access to context before zooming in
 
