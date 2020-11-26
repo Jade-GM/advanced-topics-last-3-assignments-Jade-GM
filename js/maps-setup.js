@@ -178,14 +178,14 @@ let reached1352MarkerInfo = [
 ];
 
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1348'}),
-    fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1349'}),
-    fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1350'}),
-    fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1351'}),
-    fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1348'});
+let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1349'});
+let fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1350'});
+let fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1351'});
+let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1352'});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
@@ -258,7 +258,7 @@ const townsData={
     ]
   };
 
-let towns = processJSONLayer(townsData)
+let towns = processJSONLayer(townsData);
 //let routesArea = processJSONLayer(hanseTradeArea);
 
 ////////////////////////////////////////////////////////

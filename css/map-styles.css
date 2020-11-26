@@ -7,11 +7,6 @@
     grid-template-rows: 85vh 1fr;
 }
 
-.rounded{
-    color: #ccc;
-    font-family: 'Courier New';
-}
-
 section#intro {
     grid-area: intro;
     background-color: var(--color-highlight1);
@@ -31,7 +26,8 @@ section#map_canvas {
 
 section#legend {
     grid-area: legend;
-    background-color: var(--color-highlight2);
+    /* background-color: var(--color-highlight2); */
+    background-color: maroon;
     border: 1px solid var(--color-custom-borders);
 }
 
@@ -68,6 +64,11 @@ div#map_legend div.pointer {
     /* flex-basis: 500px; */
     cursor:pointer;
     padding: 2px 2px 2px 5px;
+}
+
+section#legend h1 {
+    font-family: 'EB Garamond';
+    color: white;
 }
 
 div.pointer h1 {
@@ -127,7 +128,7 @@ div#map_legend h1 {
 }
 
 div#map_legend h3 {
-
+    font-style: italic;
 }
 
 
@@ -141,12 +142,14 @@ button.rounded {
   -moz-border-radius:5px;
   border-radius:5px;
   border: 1px black solid;
+  color: #ccc;
+  font-family: 'Courier New';
 }
 button#hide {
-  background:orange;
+  background:red;
 }
 button#reset {
-  background:green;
+  background: black;
 }
 
 /* use these last few to style the text inside the
@@ -156,7 +159,8 @@ button#reset {
 */
 
 div#map_canvas h1 {
-
+    border-width: 15px;
+    border-color: aqua;
 }
 
 div.address  {
