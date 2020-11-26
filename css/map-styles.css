@@ -8,7 +8,7 @@
 }
 
 .rounded{
-    color: #cccccc;
+    color: #ccc;
     font-family: 'Courier New';
 }
 
@@ -17,6 +17,8 @@ section#intro {
     background-color: var(--color-highlight1);
     border: 1px solid var(--color-custom-borders);
     font-family: 'Times New Roman';
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -24,7 +26,7 @@ section#map_canvas {
     grid-area: map;
     background-color: var(--color-highlight2);
     border: 1px solid var(--color-custom-borders);
-    height: 85vh
+    height: 85vh;
 }
 
 section#legend {
@@ -50,7 +52,8 @@ div#map_legend {
     gap: 5px;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, 45%);
-
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 /* reduce insane line heights */

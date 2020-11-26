@@ -242,46 +242,21 @@ const townsData={
           "fill-opacity": 0.5 */
           myColor: '#1223a7',
           title: 'Hanseatic Trade Area',
-          description: 'Rough area of Hanseatic League trade connections in the 14th century.'
+          description: 'Rough area of Hanseatic League trade connections in the mid-14th century.'
         },
         "geometry": {
           "type": "Polygon",
-          "coordinates": [
-            [
-              [
-                -0.1318359375,
-                51.508742458803326
-              ],
-              [
-                3.2409667968749996,
-                51.19999983412068
-              ],
-              [
-                19.92919921875,
-                50.05008477838256
-              ],
-              [
-                31.3330078125,
-                58.56252272853734
-              ],
-              [
-                22.236328125,
-                60.468050120874615
-              ],
-              [
-                5.3173828125,
-                60.413852350464914
-              ],
-              [
-                -0.1318359375,
-                51.508742458803326
-              ]
-            ]
-          ]
+          "coordinates": [[[-0.1318359375,51.508742458803326],
+          [3.2409667968749996, 51.19999983412068],
+              [19.92919921875, 50.05008477838256],
+              [31.3330078125, 58.56252272853734],
+              [22.236328125, 60.468050120874615],
+              [5.3173828125, 60.413852350464914],
+              [-0.1318359375, 51.508742458803326]]]
         }
       }
     ]
-  }
+  };
 
 let towns = processJSONLayer(townsData)
 //let routesArea = processJSONLayer(hanseTradeArea);
