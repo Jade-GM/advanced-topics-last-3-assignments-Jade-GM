@@ -64,7 +64,7 @@ let gryfCol = 'yellow',
     meadeCol = 'rgb(40,40,120)',
     towerCol = 'blue';
 
-let col1348 = 'pink';,
+let col1348 = 'pink',
     col1349 = 'magenta';
 
 ///////////////////////////////////////////////////////////////////////
@@ -151,6 +151,10 @@ let reached1351 = [
     {position: [28.32275390625, 57.79794388498275],
         title: 'Pskov',
         description: `<p>Plague reached Pskov in 1351.</p>`
+    },
+    {position: [28.32275390625, 57.79794388498275],
+        title: 'Turku',
+        description: `<p>Plague reached Turku in 1351.</p>`
     }
 ]
 
@@ -161,10 +165,14 @@ let reached1352 = [
     }
 ]
 
-let fortyEightfMarkers = processMarkerLayer(reached1348,
-                                     {description: 'Places with Plague in 1348'}),
-    slythMarkers = processMarkerLayer(slythMarkerInfo,
-                                      {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon});
+let fortyEightMarkers = processMarkerLayer(reached1348,
+                                     {description: 'Cities with First Plague Outbreak in 1348'}),
+    fortyNineMarkers = processMarkerLayer(reached1349,
+                                     {description: 'Cities with First Plague Outbreak in 1349'}),
+    fiftyMarkers = processMarkerLayer(reached1350,
+                                     {description: 'Cities with First Plague Outbreak in 1350'})
+/*    slythMarkers = processMarkerLayer(slythMarkerInfo,
+                                    {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
 
 
@@ -550,7 +558,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [routesArea, slythMarkers, towns, houses, paths];
+let allLayers = [routesArea, fortyEightMarkers, towns, fiftyMarkers, fortyNineMarkers];
 
 
 ///////////////////////////////////////
