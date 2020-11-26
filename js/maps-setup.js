@@ -155,7 +155,7 @@ let reached1351 = [
 
 let reached1352 = [
     {position: [31.289062500000004, 58.48220919993359],
-        title: 'Veliky Novgorod'
+        title: 'Veliky Novgorod',
         description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
     }
 ]
