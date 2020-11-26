@@ -445,11 +445,14 @@ const hanseTradeArea={
       {
         "type": "Feature",
         "properties": {
-          "stroke": "#1223a7",
+/*           "stroke": "#1223a7",
           "stroke-width": 2,
           "stroke-opacity": 1,
           "fill": "#f567ce",
-          "fill-opacity": 0.5
+          "fill-opacity": 0.5 */
+          myColor: '#1223a7',
+          title: 'Hanseatic Trade Area',
+          description: 'Rough area of Hanseatic League trade connections in the 14th century.'
         },
         "geometry": {
           "type": "Polygon",
@@ -571,7 +574,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [routesArea, fortyEightMarkers, towns, fiftyMarkers, fortyNineMarkers];
+let allLayers = [routesArea, fortyEightMarkers, towns, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers];
 
 
 ///////////////////////////////////////
