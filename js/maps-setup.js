@@ -64,7 +64,8 @@ let gryfCol = 'yellow',
     meadeCol = 'rgb(40,40,120)',
     towerCol = 'blue';
 
-let col1348 = 'pink';
+let col1348 = 'pink';,
+    col1349 = 'magenta';
 
 ///////////////////////////////////////////////////////////////////////
 // CHANGE THESE VARIABLE NAMES AND THEIR VALUES TO SUIT YOUR PROJECT //
