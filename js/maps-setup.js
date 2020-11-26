@@ -146,6 +146,20 @@ let reached1350 = [
     }
 ]
 
+let reached1351 = {
+    {position: [28.32275390625, 57.79794388498275],
+        title: 'Pskov',
+        description: `<p>Plague reached Pskov in 1351.</p>`
+    }
+}
+
+let reached1352 = {
+    {position: [31.289062500000004, 58.48220919993359],
+        title: 'Veliky Novgorod'
+        description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
+    }
+}
+
 let gryfMarkers = processMarkerLayer(gryfMarkerInfo,
                                      {description: 'Gryffindor: People and Places', defaultIcon: gryfIcon}),
     slythMarkers = processMarkerLayer(slythMarkerInfo,
@@ -465,7 +479,7 @@ let routesArea = processJSONLayer(hanseTradeArea);
 // Hogwarts Buildings Objects and LayerGroup
 // API docs: https://leafletjs.com/reference-1.5.0.html#polygon
 //  (keep scrolling for docs on rectangles and circles)
-let gryffindor = L.rectangle([[ 55.49021561150901, -1.5941441059112549],
+/* let gryffindor = L.rectangle([[ 55.49021561150901, -1.5941441059112549],
                               [55.49107265510559,-1.5931355953216553]], {
     color: gryfCol,
     opacity: 0.8,
@@ -498,7 +512,7 @@ let headmasterTower = L.circle([55.4907, -1.5944], {
 });
 
 let houses = processManualLayers([gryffindor, slytherin, headmasterTower],
-                                 {description: 'Important Hogwarts Buildings'});
+                                 {description: 'Important Hogwarts Buildings'}); */
 
 
 
@@ -535,7 +549,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [gryfMarkers, slythMarkers, towns, houses, paths];
+let allLayers = [routesArea, slythMarkers, towns, houses, paths];
 
 
 ///////////////////////////////////////
