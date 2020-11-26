@@ -442,7 +442,7 @@ let fortyEightMarkers = processMarkerLayer(reached1348,
   ]
 } */
 
-const hanseTradeArea={
+const townsData={
     "type": "FeatureCollection",
     "features": [
       {
@@ -496,8 +496,8 @@ const hanseTradeArea={
     ]
   }
 
-//let towns = processJSONLayer(townsData)
-let routesArea = processJSONLayer(hanseTradeArea);
+let towns = processJSONLayer(townsData)
+//let routesArea = processJSONLayer(hanseTradeArea);
 
 ////////////////////////////////////////////////////////
 // MAP DATA PART 3: DIRECT CREATION OF SHAPE OVERLAYS //
