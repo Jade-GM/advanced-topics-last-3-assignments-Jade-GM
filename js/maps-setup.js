@@ -123,15 +123,15 @@ let col1348 = 'pink',
      }]; */
      // keeping these here as comments for reference
 
-let reached1348 = [
+let reached1348MarkerInfo = [
     {position: [-0.11810302734375, 51.515579783755925],
         title: 'London',
         description: `<p>Plague had reached London by autumn 1348, most likely coming from France via Bristol.</p>`
     }
-]
+];
 
 
-let reached1349 = [
+let reached1349MarkerInfo = [
     {position: [5.306396484375, 60.403001945865476],
         title: 'Bergen',
         description: `<p>One of Norway's most important trade hubs and a <em>kontore</em> of the Hanseatic League.</p>`
@@ -140,10 +140,10 @@ let reached1349 = [
         title: 'Oslo',
         description: `<p>Plague was widespread in Norway by the summer of 1349, and King Magnus of Sweden and Norway issued a royal warning about it.</p>`
     }
-]
+];
 
 
-let reached1350 = [
+let reached1350MarkerInfo = [
     {position: [18.30322265625, 57.645400667406605],
         title: 'Visby',
         description: `<p>Plague reached Visby in 1350.</p>`
@@ -156,10 +156,10 @@ let reached1350 = [
         title: 'Lübeck',
         description: `<p>Plague reached Lübeck in 1350.</p>`
     }
-]
+];
 
 
-let reached1351 = [
+let reached1351MarkerInfo = [
     {position: [28.32275390625, 57.79794388498275],
         title: 'Pskov',
         description: `<p>Plague reached Pskov in 1351.</p>`
@@ -168,25 +168,25 @@ let reached1351 = [
         title: 'Turku',
         description: `<p>Plague reached Turku in 1351.</p>`
     }
-]
+];
 
-let reached1352 = [
+let reached1352MarkerInfo = [
     {position: [31.289062500000004, 58.48220919993359],
         title: 'Veliky Novgorod',
         description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
     }
-]
+];
 
-let fortyEightMarkers = processMarkerLayer(reached1348,
+let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1348'}),
-    fortyNineMarkers = processMarkerLayer(reached1349,
+    fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1349'}),
-    fiftyMarkers = processMarkerLayer(reached1350,
+    fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1350'}),
-    fiftyOneMarkers = processMarkerLayer(reached1351,
+    fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1351'}),
-    fiftyTwoMarkers = processMarkerLayer(reached1352,
-                                     {description: 'Cities with First Plague Outbreak in 1352'})
+    fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
+                                     {description: 'Cities with First Plague Outbreak in 1352'});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
@@ -203,219 +203,6 @@ let fortyEightMarkers = processMarkerLayer(reached1348,
 // you can create geoJSON layers here: http://geojson.io/
 // and learn more about the format here: https://en.wikipedia.org/wiki/GeoJSON
 // to set the line and fill color, you will need to set the `myColor` property as below. 
-
-/* const hansaTradeCities={
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "marker-color": "#f567ce",
-          "marker-size": "medium",
-          "marker-symbol": ""
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            5.361328125,
-            60.413852350464914
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "marker-color": "#f567ce",
-          "marker-size": "medium",
-          "marker-symbol": ""
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.087890625,
-            51.481382896100975
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            18.1494140625,
-            59.31076795603884
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            22.265167236328125,
-            60.4531547447101
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            18.292236328125,
-            57.63952077434961
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "marker-color": "#f567ce",
-          "marker-size": "medium",
-          "marker-symbol": ""
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            31.256103515625,
-            58.516651799363785
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            28.3447265625,
-            57.80965135970151
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            19.9072265625,
-            50.0923932109388
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "marker-color": "#7e7e7e",
-          "marker-size": "medium",
-          "marker-symbol": ""
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            8.81103515625,
-            53.09402405506325
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            11.030273437499998,
-            50.98609893339354
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            9.73388671875,
-            52.38901106223458
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            24.10400390625,
-            56.9569571133683
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            21.59912109375,
-            57.38578314962142
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            10.6787109375,
-            53.87844040332883
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            10.140380859375,
-            54.322931143263474
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.568359375,
-            55.68687525596441
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "marker-color": "#f567ce",
-          "marker-size": "medium",
-          "marker-symbol": ""
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            3.2299804687499996,
-            51.2206474303833
-          ]
-        }
-      }
-    ]
-  } */ // putting this here before I forget; this is the cities in marker form, but I want trade area as a polygon.
 
 /* const townsData={
     "type": "FeatureCollection",
