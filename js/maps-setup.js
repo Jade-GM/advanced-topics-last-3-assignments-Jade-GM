@@ -37,6 +37,7 @@ let projectMap, // this will hold the map once it's initialized
 // just substitute the color name in the URL value (just before `.png`)
 const greenURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
       yellowURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
+      outbreakURL = 'outbreak_icon.png',
       greyURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png';
 
 // create new icon classes
@@ -44,7 +45,7 @@ const greenURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/im
 const myIconClass = L.Icon.extend({
     options: {
         shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-        iconSize: [25, 41],
+        iconSize: [25, 30],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
         shadowSize: [41, 41]
@@ -53,6 +54,7 @@ const myIconClass = L.Icon.extend({
 // also https://leafletjs.com/reference-1.5.0.html#icon
 const gryfIcon = new myIconClass({iconUrl: yellowURL}),
       slythIcon = new myIconClass({iconUrl: greenURL}),
+      outbreakIcon = new myIconClass({iconUrl: outbreakURL}),
       mysteryIcon = new myIconClass({iconUrl: greyURL});
 
 
@@ -69,6 +71,7 @@ let col1348 = 'pink',
     col1350 = 'purple',
     col1351 = 'indigo',
     col1352 = 'black';
+
 
 ///////////////////////////////////////////////////////////////////////
 // CHANGE THESE VARIABLE NAMES AND THEIR VALUES TO SUIT YOUR PROJECT //
@@ -144,6 +147,14 @@ let reached1349MarkerInfo = [
         title: 'Copenhagen',
         description: `<p>Plague most likely reached Copenhagen by 1349.</p>`
     },
+    {position: [52.3890, 9.7339],
+        title: 'Hanover',
+        description: `<p>Plague reached Hanover in 1349.</p>`
+    },
+    {position: [53.0940, 8.8110],
+        title: 'Bremen',
+        description: `<p>Plague reached Bremen in 1349.</p>`
+    },
     {position: [59.93300042374631, 10.74462890625],
         title: 'Oslo',
         description: `<p>Plague was widespread in Norway by the summer of 1349, and King Magnus of Sweden and Norway issued a royal warning about it.</p>`
@@ -172,38 +183,39 @@ let reached1351MarkerInfo = [
         title: 'Pskov',
         description: `<p>Plague reached Pskov in 1351.</p>`
     },
-    {position: [57.79794388498275, 28.32275390625],
+    {position: [60.4532, 22.2652],
         title: 'Turku',
         description: `<p>Plague reached Turku in 1351.</p>`
     }
 ];
 
 let reached1352MarkerInfo = [
-    {position: [58.48220919993359, 31.289062500000004],
+    {position: [58.52525717092532, 31.278076171875],
         title: 'Veliky Novgorod',
         description: `<p>Plague reached Veliky Novgorod in 1352.</p>`
     }
 ];
 
+
 let neverMarkerInfo = [
-    {position: [50.0924,19.9072],
+    {position: [50.05008477838256,19.92919921875],
         title: 'Krakow',
-        description: `<p>There are no known plague outbreaks in the 14th century in Krakow.</p>`
+        description: `<p>As with the rest of Poland, there are no known plague outbreaks in the 14th century in Krakow.</p>`
     }
 ];
 
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1348', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1348', defaultIcon: outbreakIcon});
 let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1349', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1349', defaultIcon: outbreakIcon});
 let fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1350', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1350', defaultIcon: outbreakIcon});
 let fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1351', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1351', defaultIcon: outbreakIcon});
 let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: outbreakIcon});
 let neverMarkers = processMarkerLayer(neverMarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: mysteryIcon});
+                                     {description: 'Cities with No Recorded Plague in the 14th Century', defaultIcon: slythIcon});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
@@ -267,7 +279,7 @@ const townsData={
           "coordinates": [[[-0.1318359375,51.508742458803326],
           [3.2409667968749996,51.19999983412068],
               [19.92919921875,50.05008477838256],
-              [31.3330078125,58.56252272853734],
+              [31.278076171875,58.52525717092532],
               [22.236328125,60.468050120874615],
               [5.3173828125,60.413852350464914],
               [-0.1318359375,51.508742458803326]]]
@@ -357,7 +369,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [fortyEightMarkers, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers, towns];
+let allLayers = [fortyEightMarkers, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers, neverMarkers, towns];
 
 
 ///////////////////////////////////////
