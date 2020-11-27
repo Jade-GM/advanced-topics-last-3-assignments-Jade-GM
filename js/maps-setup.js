@@ -371,7 +371,7 @@ let paths = processManualLayers([vanishingPath, tunnelPath, horcruxPath], {descr
 // these layers will be added to the map
 // you should change these variable names
 // to align with the variables you've defiend above
-let allLayers = [fortyEightMarkers, fiftyMarkers, fiftyTwoMarkers, fortyNineMarkers, fiftyOneMarkers, neverMarkers, towns];
+let allLayers = [fortyEightMarkers, fortyNineMarkers, fiftyMarkers, fiftyOneMarkers, fiftyTwoMarkers, neverMarkers, towns];
 
 
 ///////////////////////////////////////
