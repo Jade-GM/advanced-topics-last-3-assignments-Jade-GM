@@ -204,6 +204,8 @@ let neverMarkerInfo = [
     }
 ];
 
+//note to self: find more information when less tired! (and add but only after end of the semester)
+
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1348', defaultIcon: outbreakIcon});
 let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
