@@ -260,7 +260,7 @@ let neverMarkers = processMarkerLayer(neverMarkerInfo,
 
 const townsData={
     "type": "FeatureCollection",
-    "description": 'Rough area of Hanseatic League trade connections in the mid-14th century.',
+    "description": 'Rough Area of Hanseatic League Trade Connections in the Mid-14th Century',
     "features": [
       {
         "type": "Feature",
