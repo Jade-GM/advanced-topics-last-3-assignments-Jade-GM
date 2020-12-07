@@ -26,7 +26,7 @@ var loadPopcorn = function(){
     // Instructions are here: https://github.com/jsoma/tabletop#1-publishing-your-google-sheet
     // It's very important, though, to keep the same column headers as in our example spreadsheet:
     // https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/
-    let public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&single=true';
+    let public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT63yxPXqcqwWFl9eLhMJ3D9v4BCVnEWYOeUhzYuqn9yw684SdumQ-ak_sRBGOgIm9nzUEYGQzQxP1Q/pubhtml';
 
     // now we are going to use the tabletop.js library, which was called in our 
     // HTML file, to grab the date from the spreadsheet and process it so that 
