@@ -1,34 +1,3 @@
-# Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
+## Diabetes and Healthcare in the United States
 
-## Use headings only if you want to have subsections in your essay
-
-
-
-Add your content here, including _markup_ of **various kinds**. Now you can just write! But you should be aware of a couple of advanced features of markdown:
-- you can embed HTML directly n a markdown file. This is great if you want to add complex attributes like **classes**, e.g. to your `img` tags so that they display properly (though you can also use the `{.css-selector}` method ddescribed in the main readme.
-  - a particular use of embedded HTML is for funky javascript function links. I've written a simple function that will seek to a particular time code in seconds.  You can call it like this: `<a href="javascript:seek(75)">seek to 1:15</a>`, but `[seek to 1:15](javascript:seek(75))` won't render properly, so you have to type the whole link in, as seen here: <a href="javascript:seek(75)"> seek to 1:15</a>.
-  - also, markdown-it supports pandoc-style footnotes, which can be helpful sometimes. Here are some examples of footnotes at work:
-
-    Footnote 1 link[^first].
-
-    Footnote 2 link[^second].
-
-    Inline footnote^[Text of inline footnote] definition.
-
-    Duplicated footnote reference[^second].
-
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-and remember tables, if you want them: 
-
-| heading | Heading |
-| ------| ----- |
-| content | content |
-| content | content |
-| content | content |
-{.striped}
+Diabetes mellitus, better known as simply diabetes, is a chronic disease wherein patients either cannot produce insulin (Type One) or have an unusual resistance to insulin (Type Two) and as a result cannot regulate their blood glucose levels. Until insulin was isolated and refined for medical use in the 1920s, it was usually managed via an imprecise regimen of intermittent fasting that was likely to result in hypoglycemic shock and potentially fatal comas. Although there is still not a cure, insulin injections and glucose monitoring can allow people with diabetes to manage the condition and live a long time without experiencing any of the most extreme complications (such as blindness, loss of sensation in the extremities, and muscle weakening). However, access to treatment can be extremely difficult for

@@ -1,3 +1,3 @@
-# intro here
+Estella and Candi Reyes lost their father, Juan, to a coma following a long struggle with diabetes. The story they tell is not a historical account of diabetes treatments in the United States of America (they do not at any point mention that he had diabetes; that information is from the StoryCorps page providing context for the interview), but it does touch on the experience of individuals and families affected by diabetes, providing a jumping-off point of sorts for more traditional research into issues of treatment access and illuminating the importance of doing that research.
 
-Just a few simple things here please. 
+A transcript of the recording is available [here](https://storycorps.org/stories/for-a-fathers-last-meal-the-main-ingredient-is-love/).
