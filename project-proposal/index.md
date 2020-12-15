@@ -30,7 +30,7 @@ After the end of the twelve-month period, I will generate a report on the projec
 
 ### Importance
 
-In a broader conversation about medieval medicine, examining the illustrations that go along with some descriptions of substances and finding the plants to which illustrators seem to think that they refer might shine new light on questions about medieval pharmacy and its roots in the learned medical traditions of the day. 
+In a broader conversation about medieval medicine, examining the illustrations that go along with some descriptions of substances and finding the plants to which illustrators seem to think that they refer might shine new light on questions about medieval pharmacy and its roots in the learned medical traditions of the day. Given the emphasis on the appearance and other surface qualities of substances in the medical tradition passed down from Galen and Hippocrates, it may be that the regional availability of certain plants had little bearing on the efficacy of a treatment, or it may be that some things were known well enough to easily be found no matter how abstract the drawing was. Examining different manuscript copies of two or three influential sources together may help to explore the ways the perceptions of plants and substances described in those works varied geographically and over time, and the digital tools of mapping will allow viewers of the project to get a sense of both the widespread circulation of these manuscripts and why it matters that one was copied in Italy vs in France vs in Germany (for example).
 
 ### Budget
 
