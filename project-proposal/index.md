@@ -2,8 +2,6 @@
 
 ## Application for the Hacking History Foundation's Student Development Grant
 
-<!-- I like annotating translations, I like medieval medicine, and I like weird plants and weird calligraphy, so over-all this seems like great fun, if I can think of a way to make it sound like it's worth paying for.-->
-
 ### Introduction 
 
 The texts associated with the School of Salerno had a great impact on the medicine of Western Europe in the middle ages. Books of pharmaceutical remedies like the <em>Circa instans</em> and the <em>Antidotarium Nicolaii</em> were particularly influential, as was the translation of <em>De gradibus</em> by Arabic philosopher Al-Kindi. The <em>Trotula</em> texts were also important for medieval gynecology. However, when manuscripts were copied, the illustrations could vary greatly, whether by adding in “Trotula” (a collective title for the texts written by Trota of Salerno) as an actual woman or by drawing plants in ways that only vaguely match any descriptions given.
