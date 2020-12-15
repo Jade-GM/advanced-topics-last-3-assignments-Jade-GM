@@ -54,3 +54,5 @@ In a broader conversation about medieval medicine, examining the illustrations t
 [The Monastic Manuscript Project](http://www.earlymedievalmonasticism.org/), a database of descriptions of medieval manuscripts and their locations. This will be helpful in finding archives and libraries to contact.
 
 [Manuscript Evidence for Pharmacy in the Early Middle Ages](https://www.cambridge.org/core/books/writing-the-early-medieval-west/manuscript-evidence-for-pharmacy-in-the-early-middle-ages/418D226CD661CA14DE3236634441935A), a book chapter that deals with manuscripts about medieval pharmacy in western Europe.
+
+[Herbal History Research Network](herbalhistory.org/home/), a digital project that presents articles on the history of herbal medicine at various time periods (and also holds seminars and other events). They have a resource list that includes some libraries and digitised archives of books relevant to the subject.
