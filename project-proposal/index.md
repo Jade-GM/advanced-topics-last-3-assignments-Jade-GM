@@ -56,3 +56,5 @@ In a broader conversation about medieval medicine, examining the illustrations t
 [Manuscript Evidence for Pharmacy in the Early Middle Ages](https://www.cambridge.org/core/books/writing-the-early-medieval-west/manuscript-evidence-for-pharmacy-in-the-early-middle-ages/418D226CD661CA14DE3236634441935A), a book chapter that deals with manuscripts about medieval pharmacy in western Europe.
 
 [Herbal History Research Network](herbalhistory.org/home/), a digital project that presents articles on the history of herbal medicine at various time periods (and also holds seminars and other events). They have a resource list that includes some libraries and digitised archives of books relevant to the subject.
+
+[The British Library's Medieval Manuscript Blog](https://blogs.bl.uk/digitisedmanuscripts/index.html), a series of commentaries on medieval manuscripts that have been digitised. Some of them deal with contextualizing works on medicine.
