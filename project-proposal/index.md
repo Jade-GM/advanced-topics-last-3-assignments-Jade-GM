@@ -2,25 +2,25 @@
 
 ## Application for the Hacking History Foundation's Student Development Grant
 
-<!-- I like annotating translations, I like medieval medicine, and I like weird plants and weird calligraphy, so over-all this seems like great fun.-->
+<!-- I like annotating translations, I like medieval medicine, and I like weird plants and weird calligraphy, so over-all this seems like great fun, if I can think of a way to make it sound like it's worth paying for.-->
 
 ### Introduction 
-<!-- (500 words) -->
+
+Through this process of digital annotation and presentation, this project will aim to evaluate the degree to which regional differences in flora influenced the interpretation and illustration of Salernitan pharmacy texts when they were re-copied to circulate elsewhere in Europe. It will also aim to digital repository of information on these texts of medieval medicine that can be freely accessed by interested individuals on the internet in order to present the texts along with their manuscript forms, as the format and appearance of a manuscript is something that is usually missed out (arguably by necessity, given the modern formatting conventions of books) in published translations.
 
 ### Methods 
-<!-- (500 words) -->
 
-The initial compilation phase of the project will involve contacting collections of scanned manuscripts to request permission for use of their scans, followed by transcribing the scanned images and coming up with a detailed gloss of the language (with notes of any potential ambiguity in words resulting from copying errors or damage) and then an annotated translation in the cases where there is not a freely available pre-existing translation to use.
+The initial compilation phase of the project will involve contacting collections of scanned manuscripts to request permission for use of their scans, followed by transcribing the scanned images and coming up with a detailed gloss of the language (with notes of any potential ambiguity in words resulting from copying errors or damage) and then an annotated translation in the cases where there is not a freely available pre-existing translation to use. Additionally, I will contact collections that have manuscripts of texts within the project scope that have not been scanned to request permission to scan them at some point during the project timeframe in order to work on the project goal of comparing different copies of the same text as circulated around late medieval Europe.
+
+After deciding upon a body of texts to work on in this pilot project based on the availability of distinct manuscript copies, I will construct maps to be integrated into the page of each copy of each text using Leaflet and APIs, with layers that show where the manuscript is from, the natural ranges of various plants fitting the descriptions of things used in the manuscript, and the text’s place of origin if possible. Once all the versions of the text that I intend to use in this project have been processed in that way and annotated as above, I will comment on the findings of this spatial inquiry, which may help to enhance a viewer's understanding of certain aspects of the illustrations in the manuscripts.
 
 The results will be made publicly available via a GitHub Page with a purchased domain. Ideally, this will happen on a rolling basis, with each text’s entry being published after its integration into a page in the manner detailed above is complete, so that some part of the project will be available for viewing as early as the third to fourth month. After the project is completed, the results will remain published for at least one year while its success in meeting its goals is evaluated through the writing of a report.
 
 ### Timeline
-<!-- (500 words) -->
 
 After the end of the twelve-month period, I will generate a report on the project’s success in meeting its goals (as outlined in introduction and elaborated upon in the section following this one), and may seek out other sources of funding based on the findings of that report with regards to the project’s effectiveness at answering the questions from the Introduction section.
 
 ### Importance
-<!-- (500 words) -->
 
 ### Budget
 
@@ -32,10 +32,13 @@ After the end of the twelve-month period, I will generate a report on the projec
 | Domain                                       | 250        | Ideally, the project would stay up on its domain once finished for some time past the end of the grant (to present it in its finished state), so this expense is intended to buy the domain for an additional year.                                                                                                                                                                    |
 | Reference Text on Medieval Latin Orthography | 190        | I need one or two good and comprehensive volumes compiling the ways Medieval Latin diverges from Classical Latin (as the grammar is largely retained but the orthography and word usage changed sometimes quite significantly), the form of Latin with which I am vastly more comfortable.                                                                                             |
 | Person-Hours                                 | 6900       | I estimate that I would use roughly an average of 30 hours per month on the project. In the summer, I would work an extra 100 hours or so. Under Ontario’s current minimum wage laws, it would have to be at least $14.25/hour; I've put it up to $15, adding up to a total of $5,400 for the baseline hours per month across the entire project, plus an extra $1,500 for the summer. |
-| Travel                                       | 2500       | Estimated cost of two round-trip flights to cities in Europe (depending on where I can gain permission to go and scan some copies of manuscripts in two different collections).                                                                                                                                                                                                        |
+| Travel                                       | 2800       | Estimated cost of two round-trip flights to cities in Europe (depending on where I can gain permission to go and scan some copies of manuscripts in two different collections).                                                                                                                                                                                                        |
 | Accommodation                                | 800        | Accounting for potential inavailability of return flights the day after the completion of scanning, each trip might take up to four or five days.                                                                                                                                                                                                                                      |
 | Portable Scanner                             | 400        | In order to scan manuscripts. (If approval is given, I will first look into the chemistry of common ink and parchment types in order to ensure that nothing bad will happen to the manuscripts from being scanned.)                                                                                                                                                                    |
+| Unforeseen Issues                            | 3000       | In case there are fees associated with any of the scanning, perhaps, or if the flights work out to more expensive than predicted due to their timing. This can be converted into a third trip if time (and a third library) permits.                                                                                                                                                   |
 
 ### Bibliography
 
 [The Book of the Dead in 3D](3dcoffins.berkeley.edu), a project by the University of California at Berkeley in conjunction with several museums. Their annotations of texts on the mummies and presentation of context with maps is the sort of thing this project intends to do on scans of manuscript texts.
+
+[The Monastic Manuscript Project](http://www.earlymedievalmonasticism.org/), a database of descriptions of medieval manuscripts and their locations. This will be helpful in finding archives and libraries to contact.
