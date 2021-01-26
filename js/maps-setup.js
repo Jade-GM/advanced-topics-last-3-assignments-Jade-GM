@@ -38,6 +38,11 @@ let projectMap, // this will hold the map once it's initialized
 const greenURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
       yellowURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
       outbreakURL = 'outbreak_icon.png',
+      URL1349 = 'https://imgur.com/a/JdWdFZP', 
+      URL1350 = 'https://imgur.com/a/RQyaYgx', //change greenish for yellow
+      URL1351 = 'https://imgur.com/a/4NF5xIY',
+      URL1352 = 'https://imgur.com/a/SAFx02C',
+      noURL = 'https://imgur.com/a/a05vsXn',
       greyURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png';
 
 // create new icon classes
@@ -55,6 +60,12 @@ const myIconClass = L.Icon.extend({
 const gryfIcon = new myIconClass({iconUrl: yellowURL}),
       slythIcon = new myIconClass({iconUrl: greenURL}),
       outbreakIcon = new myIconClass({iconUrl: outbreakURL}),
+      //outbreakIcon = new myIconClass({iconUrl: outbreakURL}),
+      icon1349 = new myIconClass({iconUrl: URL1349}),
+      icon1350 = new myIconClass({iconUrl: URL1350}),
+      icon1351 = new myIconClass({iconUrl: URL1351}),
+      icon1352 = new myIconClass({iconUrl: URL1352}),
+      noIcon = new myIconClass({iconUrl: noURL}),
       mysteryIcon = new myIconClass({iconUrl: greyURL});
 
 
@@ -209,15 +220,15 @@ let neverMarkerInfo = [
 let fortyEightMarkers = processMarkerLayer(reached1348MarkerInfo,
                                      {description: 'Cities with First Plague Outbreak in 1348', defaultIcon: outbreakIcon});
 let fortyNineMarkers = processMarkerLayer(reached1349MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1349', defaultIcon: outbreakIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1349', defaultIcon: icon1349});
 let fiftyMarkers = processMarkerLayer(reached1350MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1350', defaultIcon: outbreakIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1350', defaultIcon: icon1350});
 let fiftyOneMarkers = processMarkerLayer(reached1351MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1351', defaultIcon: outbreakIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1351', defaultIcon: icon1351});
 let fiftyTwoMarkers = processMarkerLayer(reached1352MarkerInfo,
-                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: outbreakIcon});
+                                     {description: 'Cities with First Plague Outbreak in 1352', defaultIcon: icon1352});
 let neverMarkers = processMarkerLayer(neverMarkerInfo,
-                                     {description: 'Cities with No Recorded Plague in the 14th Century', defaultIcon: slythIcon});
+                                     {description: 'Cities with No Recorded Plague in the 14th Century', defaultIcon: noIcon});
 /*    slythMarkers = processMarkerLayer(slythMarkerInfo,
                                     {description: 'Slytherin: Peple and Places', defaultIcon: slythIcon}); */
 
