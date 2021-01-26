@@ -38,11 +38,11 @@ let projectMap, // this will hold the map once it's initialized
 const greenURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
       yellowURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
       outbreakURL = 'outbreak_icon.png',
-      URL1349 = 'https://imgur.com/a/JdWdFZP', 
-      URL1350 = 'https://imgur.com/a/RQyaYgx', //change greenish for yellow
-      URL1351 = 'https://imgur.com/a/4NF5xIY',
-      URL1352 = 'https://imgur.com/a/SAFx02C',
-      noURL = 'https://imgur.com/a/a05vsXn',
+      URL1349 = '1349_icon.png', 
+      URL1350 = '1350_icon.png', //change greenish for yellow
+      URL1351 = '1351_icon.png',
+      URL1352 = '1352_icon.png',
+      noURL = 'none_icon.png',
       greyURL = 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png';
 
 // create new icon classes
